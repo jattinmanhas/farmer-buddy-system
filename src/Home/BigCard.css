@@ -1,0 +1,92 @@
+.bigCard__container{
+     display: flex;
+     justify-content: center;
+     background-color:bisque;
+     max-width: 100%;
+     max-height: 400px;
+     margin-bottom: 50px;
+}
+.bigCard__image{
+     width: 100vw;
+     z-index: 1;
+}
+
+.bigCard__image > img{
+     object-fit: cover;
+     max-width: 100%;
+     height: 100%;
+     position: relative;
+     top:0;
+     left: 0;
+     max-height: 400px;
+}
+
+.bigCard__text{
+     padding-left: 30px;
+     padding-right: 30px;
+     justify-content: center;
+     padding-bottom: 1rem;
+}
+
+.bigCard__text > h3{
+     padding-top: 20px;
+     padding-bottom: 30px;
+     text-align: left;
+     font-size: 25px;
+}
+
+.bigCard__text > p{
+     padding-bottom: 30px;
+}
+
+.bigCard__text > button{
+     padding: 10px 20px;
+     border-radius: 2px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     background-color: transparent;
+     border: 3px solid green;
+     font-weight: 600;
+     border-radius: 10px;
+     font-size: 18px;
+}
+
+.bigCard__text > button:hover{
+     background-color: green;
+     color: white;
+     transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 960px){
+     .bigCard__container{
+          display: flex;
+          flex-direction: column;
+          margin-top: 300px;
+          max-height: 700px;
+     }
+
+     .bigCard__image > img{
+          width: 100%;
+          max-height: 300px;
+     }
+
+     .bigCard__text > h3{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-size: 20px;
+     }
+
+     .bigCard__text > p{
+          text-align: center;
+          font-size: 14px;
+     }
+     .bigCard__text > button{
+          margin-bottom: 20px;
+          text-align: center;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+     }
+}

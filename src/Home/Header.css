@@ -1,0 +1,79 @@
+.image__container img{
+     object-fit: cover;
+     width: 100%;
+     height: 85vh;
+     z-index: -1;
+     position: relative;
+     top: -40px;
+     object-position: bottom right;
+}
+
+.image__container{
+     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+     position: relative;
+     top: -60px;
+     height: 78vh;
+}
+
+
+.text__container{
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translateX(-50%);
+     color: white;
+     padding-bottom: 1rem;
+     width: 100%;
+     text-align: center;
+}
+
+.text__container > h1{
+     font-size: 35px;
+}
+
+.text__container > p{
+     text-align: center;
+     font-weight: bold;
+     padding-top: 5px;
+     font-size: 18px;
+}
+
+.button-container{
+     position: absolute;
+     top: 45%;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+
+@media screen and (max-width: 960px) {
+
+     .text__container{
+          position: absolute;
+          top: 28%;
+          width: 100%;
+          text-align: center;
+     }
+
+     .text__container > h1{
+          font-size: 27px;
+     }
+
+     .text__container > p{
+          font-size: 18px;
+     }
+
+     .image__container img{
+          object-position: bottom;
+     }
+}
+
+@media screen and (max-width: 520px){
+     .text__container > h1{
+          font-size: 24px;
+     }
+
+     .text__container > p{
+          font-size: 16px;
+     }
+}
