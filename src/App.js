@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import reactDom from 'react-dom';
 import './App.css';
 import Navbar from './Navbar/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route   } from 'react-router-dom';
 import Home from './Home/Home';
 import Blog from './Blog/Blog';
 import SinglePost1 from './Blog/SinglePost/SinglePost';
