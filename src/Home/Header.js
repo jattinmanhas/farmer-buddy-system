@@ -7,7 +7,7 @@ function Header() {
      return (
           <div className="header__container">
                <div className="image__container">
-                    <img src="images/head.jpeg" alt="Header Image" />
+                    <img src="https://media.istockphoto.com/photos/sunrise-strawberry-farm-landscape-agricultural-agriculture-picture-id1091940998?k=20&m=1091940998&s=612x612&w=0&h=cs6cFdycUbBph7bdpmr1bqrNaaoioETjXB_Np8MaMus=" alt="Header Image" />
                </div>
                <div className="text__container">
                     <h1>Best Irrigation Solutions and Products</h1>
