@@ -20,7 +20,7 @@ function Home() {
             title="Aglaonema Red Plant | hassle free addition to indoor spaces | add a spot of red and voila!"
             price={99.99}
             rating={3}
-            image="images/redplant.png"
+            image="https://m.media-amazon.com/images/I/51JW5dOQCgL._SX466_.jpg"
           />
           <Product
             id="125"
@@ -34,7 +34,7 @@ function Home() {
             title="Pyramid Double Side Rake & Trowel | Clearns leaves, grass | Digs scoops, and moves dirt"
             price={598.99}
             rating={4}
-            image="images/pyramid.png"
+            image="https://m.media-amazon.com/images/I/51yyBBMbO1L._SX466_.jpg"
           />
         </div>
 
@@ -44,7 +44,7 @@ function Home() {
             title="Digging Spade | Makes gardening easy | perfect for lifting and turning over soil "
             price={5.99}
             rating={4}
-            image="images/diggingspade.jpg"
+            image="https://img1.exportersindia.com/product_images/bc-full/2020/6/7011871/digging-spade-1591549137-5463035.jpeg"
           />
 
           <Product
@@ -52,14 +52,14 @@ function Home() {
             title="Garlic Seeds | Superior Quality | High Yielding value and freshness"
             price={2.99}
             rating={3}
-            image="images/garlicseeds.jpg"
+            image="https://5.imimg.com/data5/SELLER/Default/2020/12/HV/XC/XO/2205310/garlic-seeds-250x250.jpg"
           />
           <Product
             id="123"
             title="Neem Cake Powder | controls soil based pathogens | improves the efficiency of fertilisers."
             price={7.99}
             rating={2}
-            image="images/neemcakepowder.jpeg"
+            image="https://m.media-amazon.com/images/I/71i-c0qhOBL._SL1208_.jpg"
           />
         </div>
 

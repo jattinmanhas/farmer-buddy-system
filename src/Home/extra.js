@@ -5,7 +5,7 @@ function Extra() {
      return (
           <div className="extra__container">
                <div className="extra__imgContainer">
-                    <img src="images/query.jpeg" alt="" />
+                    <img src="https://www.nopaperforms.com/wp-content/uploads/2021/05/Support-Desk-min.png" alt="" />
                </div>
                <div className="extra__textContainer">
                     <h2>Our Experts provide best solutions to your queries and helps you to get best results.</h2>

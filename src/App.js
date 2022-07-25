@@ -23,6 +23,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Orders from './SignProducts/Orders';
 import Contact from './Queries/Contact';
+import { Redirect } from 'react-router-dom';
 
 const promise = loadStripe(
   "pk_test_51JiJG0SIf2AWHkZ990iuoMG6d5Sb8ssZNbIJZVgTSL3KrVvkDKVtijsrKehwe6eTnAJ5WqYdQ3tXOmg0QtBVSDux00j7KZscs4"
@@ -111,6 +112,9 @@ function App() {
           </Route>
           <Route path="/checkout">
             <Checkout/>
+          </Route>
+          <Route path="/farmer-buddy-system">
+              <Redirect to="/"/>
           </Route>
         </Switch>
       </Router>

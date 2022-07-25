@@ -67,7 +67,7 @@ function Posts() {
 
       <Link to="/singlepage7" style={{ textDecoration: "none" }}>
         <Post
-          src="https://www.dripworks.com/wordpress/wp-content/uploads/2020/05/top-four-irrigation-techniques-782x440.jpg"
+          src="https://modernfarmer.com/wp-content/uploads/2015/07/dripIrrigation-1200x800.jpg"
           postTitle="Drip Irrigation as the Most Efficient Irrigation System Type
 "
           postDate="1 hour ago"

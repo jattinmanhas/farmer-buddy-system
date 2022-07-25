@@ -7,7 +7,7 @@ function BigCard() {
   return (
     <div className="bigCard__container">
       <div className="bigCard__image">
-        <img src="images/big card.jpeg" alt="New Irrigation Image" />
+        <img src="https://bl-i.thgim.com/public/incoming/bpy2p1/article26060002.ece/alternates/LANDSCAPE_1200/micro-irrigationjpg" alt="New Irrigation Image" />
       </div>
       <div className="bigCard__text">
         <h3>
